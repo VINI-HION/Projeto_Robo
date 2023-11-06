@@ -51,7 +51,7 @@
 #define LEDC_TIMER_2 LEDC_TIMER_0
 #define LEDC_MODE_2 LEDC_LOW_SPEED_MODE
 #define LEDC_OUTPUT_IO_2 (5) // Define the output GPIO
-#define LEDC_CHANNEL_2 LEDC_CHANNEL_0
+#define LEDC_CHANNEL_2 LEDC_CHANNEL_1
 #define LEDC_DUTY_RES_2 LEDC_TIMER_13_BIT // Set duty resolution to 13 bits
 #define LEDC_DUTY_2 (4095)                // Set duty to 50%. ((2 ** 13) - 1) * 50% = 4095 // vai de zero a 8190
 #define LEDC_FREQUENCY_2 (5000)           // Frequency in Hertz. Set frequency at 5 kHz
